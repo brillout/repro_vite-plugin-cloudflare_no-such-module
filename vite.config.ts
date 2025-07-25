@@ -12,4 +12,7 @@ export default defineConfig({
     }),
     vike(),
   ],
+  ssr: {
+    noExternal: true
+  }
 })
