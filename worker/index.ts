@@ -1,4 +1,4 @@
-import { handleSsr } from './ssr'
+import { handleSsr } from './ssr.js'
 
 export default {
   async fetch(request) {
